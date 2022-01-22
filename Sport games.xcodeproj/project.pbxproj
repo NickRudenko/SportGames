@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		262CF964279C17DF00846FF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CF963279C17DF00846FF8 /* AppDelegate.swift */; };
 		262CF966279C17DF00846FF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CF965279C17DF00846FF8 /* SceneDelegate.swift */; };
-		262CF968279C17DF00846FF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CF967279C17DF00846FF8 /* ViewController.swift */; };
+		262CF968279C17DF00846FF8 /* EventCategoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CF967279C17DF00846FF8 /* EventCategoriesListViewController.swift */; };
 		262CF96B279C17DF00846FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262CF969279C17DF00846FF8 /* Main.storyboard */; };
 		262CF96D279C17E000846FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262CF96C279C17E000846FF8 /* Assets.xcassets */; };
 		262CF970279C17E000846FF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262CF96E279C17E000846FF8 /* LaunchScreen.storyboard */; };
 		262CF97B279C17E000846FF8 /* Sport_gamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CF97A279C17E000846FF8 /* Sport_gamesTests.swift */; };
 		262CF985279C17E000846FF8 /* Sport_gamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CF984279C17E000846FF8 /* Sport_gamesUITests.swift */; };
 		262CF987279C17E000846FF8 /* Sport_gamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CF986279C17E000846FF8 /* Sport_gamesUITestsLaunchTests.swift */; };
+		262CF995279C201D00846FF8 /* Fetch in Frameworks */ = {isa = PBXBuildFile; productRef = 262CF994279C201D00846FF8 /* Fetch */; };
+		262CF998279C205300846FF8 /* Bond in Frameworks */ = {isa = PBXBuildFile; productRef = 262CF997279C205300846FF8 /* Bond */; };
+		262CF9A0279C253C00846FF8 /* EventCategoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CF99F279C253C00846FF8 /* EventCategoriesListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		262CF960279C17DF00846FF8 /* Sport games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sport games.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		262CF963279C17DF00846FF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		262CF965279C17DF00846FF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		262CF967279C17DF00846FF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		262CF967279C17DF00846FF8 /* EventCategoriesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCategoriesListViewController.swift; sourceTree = "<group>"; };
 		262CF96A279C17DF00846FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		262CF96C279C17E000846FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		262CF96F279C17E000846FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		262CF980279C17E000846FF8 /* Sport gamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sport gamesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		262CF984279C17E000846FF8 /* Sport_gamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport_gamesUITests.swift; sourceTree = "<group>"; };
 		262CF986279C17E000846FF8 /* Sport_gamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport_gamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		262CF99F279C253C00846FF8 /* EventCategoriesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCategoriesListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262CF995279C201D00846FF8 /* Fetch in Frameworks */,
+				262CF998279C205300846FF8 /* Bond in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +105,10 @@
 		262CF962279C17DF00846FF8 /* Sport games */ = {
 			isa = PBXGroup;
 			children = (
+				262CF99D279C245C00846FF8 /* Screens */,
+				262CF999279C20A500846FF8 /* Games Models */,
 				262CF963279C17DF00846FF8 /* AppDelegate.swift */,
 				262CF965279C17DF00846FF8 /* SceneDelegate.swift */,
-				262CF967279C17DF00846FF8 /* ViewController.swift */,
 				262CF969279C17DF00846FF8 /* Main.storyboard */,
 				262CF96C279C17E000846FF8 /* Assets.xcassets */,
 				262CF96E279C17E000846FF8 /* LaunchScreen.storyboard */,
@@ -127,6 +134,54 @@
 			path = "Sport gamesUITests";
 			sourceTree = "<group>";
 		};
+		262CF999279C20A500846FF8 /* Games Models */ = {
+			isa = PBXGroup;
+			children = (
+				262CF99C279C20EC00846FF8 /* Extensions */,
+				262CF99B279C20DE00846FF8 /* Contexts */,
+				262CF99A279C20BF00846FF8 /* Network Requests */,
+			);
+			path = "Games Models";
+			sourceTree = "<group>";
+		};
+		262CF99A279C20BF00846FF8 /* Network Requests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Network Requests";
+			sourceTree = "<group>";
+		};
+		262CF99B279C20DE00846FF8 /* Contexts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contexts;
+			sourceTree = "<group>";
+		};
+		262CF99C279C20EC00846FF8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		262CF99D279C245C00846FF8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				262CF99E279C246B00846FF8 /* Event Categories List */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		262CF99E279C246B00846FF8 /* Event Categories List */ = {
+			isa = PBXGroup;
+			children = (
+				262CF967279C17DF00846FF8 /* EventCategoriesListViewController.swift */,
+				262CF99F279C253C00846FF8 /* EventCategoriesListViewModel.swift */,
+			);
+			path = "Event Categories List";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +198,10 @@
 			dependencies = (
 			);
 			name = "Sport games";
+			packageProductDependencies = (
+				262CF994279C201D00846FF8 /* Fetch */,
+				262CF997279C205300846FF8 /* Bond */,
+			);
 			productName = "Sport games";
 			productReference = 262CF960279C17DF00846FF8 /* Sport games.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +274,10 @@
 				Base,
 			);
 			mainGroup = 262CF957279C17DF00846FF8;
+			packageReferences = (
+				262CF993279C201D00846FF8 /* XCRemoteSwiftPackageReference "Fetch" */,
+				262CF996279C205300846FF8 /* XCRemoteSwiftPackageReference "Bond" */,
+			);
 			productRefGroup = 262CF961279C17DF00846FF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +321,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				262CF968279C17DF00846FF8 /* ViewController.swift in Sources */,
+				262CF968279C17DF00846FF8 /* EventCategoriesListViewController.swift in Sources */,
+				262CF9A0279C253C00846FF8 /* EventCategoriesListViewModel.swift in Sources */,
 				262CF964279C17DF00846FF8 /* AppDelegate.swift in Sources */,
 				262CF966279C17DF00846FF8 /* SceneDelegate.swift in Sources */,
 			);
@@ -447,6 +511,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +540,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -604,6 +670,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		262CF993279C201D00846FF8 /* XCRemoteSwiftPackageReference "Fetch" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dhardiman/Fetch";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		262CF996279C205300846FF8 /* XCRemoteSwiftPackageReference "Bond" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DeclarativeHub/Bond";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		262CF994279C201D00846FF8 /* Fetch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 262CF993279C201D00846FF8 /* XCRemoteSwiftPackageReference "Fetch" */;
+			productName = Fetch;
+		};
+		262CF997279C205300846FF8 /* Bond */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 262CF996279C205300846FF8 /* XCRemoteSwiftPackageReference "Bond" */;
+			productName = Bond;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 262CF958279C17DF00846FF8 /* Project object */;
 }
