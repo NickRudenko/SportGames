@@ -32,6 +32,7 @@
 		262CF9BC279DBCCE00846FF8 /* EventCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CF9BB279DBCCE00846FF8 /* EventCollectionViewCellViewModel.swift */; };
 		262CF9BE279E173F00846FF8 /* Date+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CF9BD279E173F00846FF8 /* Date+Formatter.swift */; };
 		262CF9C0279E189D00846FF8 /* UIColor+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CF9BF279E189D00846FF8 /* UIColor+Custom.swift */; };
+		262CF9C4279E1F9A00846FF8 /* UIView+NavigationTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CF9C3279E1F9A00846FF8 /* UIView+NavigationTitle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		262CF9BB279DBCCE00846FF8 /* EventCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 		262CF9BD279E173F00846FF8 /* Date+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formatter.swift"; sourceTree = "<group>"; };
 		262CF9BF279E189D00846FF8 /* UIColor+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Custom.swift"; sourceTree = "<group>"; };
+		262CF9C3279E1F9A00846FF8 /* UIView+NavigationTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+NavigationTitle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 				262CF9AF279C612100846FF8 /* PathCombine.swift */,
 				262CF9BD279E173F00846FF8 /* Date+Formatter.swift */,
 				262CF9BF279E189D00846FF8 /* UIColor+Custom.swift */,
+				262CF9C3279E1F9A00846FF8 /* UIView+NavigationTitle.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				262CF9BC279DBCCE00846FF8 /* EventCollectionViewCellViewModel.swift in Sources */,
 				262CF9A0279C253C00846FF8 /* EventCategoriesListViewModel.swift in Sources */,
 				262CF9C0279E189D00846FF8 /* UIColor+Custom.swift in Sources */,
+				262CF9C4279E1F9A00846FF8 /* UIView+NavigationTitle.swift in Sources */,
 				262CF964279C17DF00846FF8 /* AppDelegate.swift in Sources */,
 				262CF9AE279C5FE300846FF8 /* AppEnvironment.swift in Sources */,
 				262CF9A5279C4CF800846FF8 /* Event.swift in Sources */,

@@ -35,7 +35,7 @@ class EventCategoriesListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .navigationBar
-        title = "Sport games"
+        self.navigationItem.titleView = UIView.navTitleWithImageAndText(titleText: "Sport Games", imageName: "soccer_icon")
         viewModel.fetchCategories()
         setupConstraints()
         setupBinding()
